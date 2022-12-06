@@ -1,0 +1,39 @@
+.counter{
+    display: flex;
+    flex-direction: column;
+    border:1px black solid;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+    margin-bottom: 5%;
+
+    .counter-bar{
+        font-weight: lighter;
+        background-color: blue;
+        width: 100%;
+        color: white;
+        text-align: left;
+        
+    }
+
+}
+
+.buttons{
+    
+    border:none;
+    margin-bottom: 10px;
+
+    .button{
+        text-align: center;
+        
+        height:25px;
+        width: 30px;
+        
+        font-size: 20px;
+    font-weight: bold;
+        
+    }
+}

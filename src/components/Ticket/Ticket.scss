@@ -1,0 +1,31 @@
+.ticket{
+    border: 2px solid black;
+    justify-content: center;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.432);
+    background-color: lightgrey;
+    font-size: 20px;
+    font-weight: lighter;
+
+    .bar{
+        display: flex;
+        text-align: right;
+        background-color: blue;
+        color: white;
+        justify-content: right;
+        .ticket-title{
+            margin-right:160px ;
+            font-size: 30px;
+        }
+
+        .close{
+            width: 35px;
+            font-weight: bolder;
+
+        }
+
+    }
+    .ticket-counter{
+        align-content: center;
+    }
+}
