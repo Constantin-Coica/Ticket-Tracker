@@ -7,7 +7,6 @@ const Counter = () => {
 
   const [counter, setCounter] = useState(0);
   const handleClick = (sign) =>{
-    console.log(sign);
     return sign === "+" ? setCounter(counter + 1): sign === "-" && counter>0 ? setCounter(counter-1): "";
   }
   
